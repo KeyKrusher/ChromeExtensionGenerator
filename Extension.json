@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "Place Extension Name Here",
+  "description": "Place description here.",
+  "version": "Place version here",
+
+  "browser_action": {
+    "default_icon": "icon.png", // Icon here
+    "default_popup": "popup.html" // Popup webpage here
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
+// Other things to do
+{
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Click here!"
+  },
+}
